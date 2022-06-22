@@ -42,7 +42,7 @@
 
 ### 알아둘 부분 & 문제
 
-1. Gradle `api` 예약어 사용
+#### 1. Gradle `api` 예약어 사용
 
 Gradle 7.x 버전 이후 `compile` 을 사용하지 못하게 되었고, `api`, `implementation` 으로  의존성을 추가할 수 있게 되었다. 
 
@@ -51,3 +51,5 @@ Gradle 7.x 버전 이후 `compile` 을 사용하지 못하게 되었고, `api`, 
 // build.gradle
  apply plugin: 'java-library'
 ```
+
+#### 2. [타 모듈에서 앱 실행시 JPA DDL 관련 로그가 발생하지 않는 현상](https://awse2050.tistory.com/108)
