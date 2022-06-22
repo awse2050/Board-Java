@@ -1,5 +1,6 @@
 rootProject.name = 'java'
 
 include(
-        "java-core"
+        "java-core",
+        "java-api"
 )
