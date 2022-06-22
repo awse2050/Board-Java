@@ -1,10 +1,10 @@
-package com.multi.java;
+package com.multi.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MultiModuleJavaApplicationTests {
+class MultiModuleJavaApiApplicationTests {
 
     @Test
     void contextLoads() {
