@@ -5,6 +5,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+java-api/out
+java-core/out
+
 ### STS ###
 .apt_generated
 .classpath
