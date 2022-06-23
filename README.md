@@ -53,3 +53,5 @@ Gradle 7.x 버전 이후 `compile` 을 사용하지 못하게 되었고, `api`, 
 ```
 
 #### 2. [타 모듈에서 앱 실행시 JPA DDL 관련 로그가 발생하지 않는 현상](https://awse2050.tistory.com/108)
+
+#### 3. [타 모듈을 사용하기 위한 추가 설정 및 멀티 모듈에 대한 견해](https://awse2050.tistory.com/109)
