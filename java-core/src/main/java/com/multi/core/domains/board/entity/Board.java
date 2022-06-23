@@ -13,4 +13,14 @@ public class Board {
     @Column(name = "title", length = 50)
     private String title;
 
+    protected Board() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public Board(String title) {
+        this.title = title;
+    }
 }
