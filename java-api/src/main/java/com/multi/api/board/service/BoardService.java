@@ -19,4 +19,8 @@ public class BoardService {
         return null;
     }
 
+    public Board register(Board entity) {
+        Board savedEntity = boardRepository.save(entity);
+        return savedEntity;
+    }
 }
